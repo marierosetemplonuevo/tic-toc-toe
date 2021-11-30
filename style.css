@@ -1,0 +1,83 @@
+body {
+  color: #555555;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "PT Sans", sans-serif;
+  margin: 0 0 100px;
+}
+
+.header {
+  width: 500px;
+  height: 150px;
+  margin: 100px 500px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 40px;
+  font-family: "PT Sans", sans-serif;
+  color: #555555;
+}
+
+.header div {
+  margin: 20px;
+}
+
+.x-turn {
+  background-image: url(images/cross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.o-turn {
+  background-image: url(images/circle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.board {
+  background-color: black;
+  width: 425px;
+  height: 425px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  box-shadow: 0px 25px 40px 40px rgb(17 17 17);
+}
+
+.cell {
+  background-color: #232323;
+  width: 80px;
+  height: 80px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.x {
+  background-image: url(images/cross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.o {
+  background-image: url(images/circle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
